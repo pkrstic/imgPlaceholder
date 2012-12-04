@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 14px sans-serif;
+	background: #f0f0f0;
+}
+
+a {
+	color: #369;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+pre {
+	border: 1px solid #ddd;
+	background: #eee;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+dt {
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 5px;
+	color: #555;
+}
+
+.title {
+	font: bold 24px sans-serif;
+}
+
+.content {
+	margin: 20px auto;
+	width: 600px;
+}
+
+.note {
+	border: 3px solid #f90;
+	padding: 5px;
+	border-width: 1px 1px 1px 4px;
+	background: #fed;
+	border-radius: 10px;
+}
+
+.tabs {
+	margin: 0 0 -1px 0;
+	padding: 0;
+	height: 30px;
+}
+
+.tabs li {
+	display: block;
+	float: left;
+	height: 26px;
+	font: bold 14px/26px sans-serif;
+	border: 1px solid #ccc;
+	border-top: 3px solid #aaa;
+	padding: 0 10px;
+	margin: 0 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	text-decoration: none;
+	color: #333;
+	background: #fff;
+	border-bottom-color: #fff;
+	border-top-color: #f90;
+	color: #f90;
+}
+
+.tab_content {
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 0 5px 5px 5px;
+	background: #fff;
+}
+
+.itemList {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:auto;
+}
+
+.itemList li {
+	text-align:center;
+	float: left;
+	padding:5px;
+	margin:6px;
+	width:120px;
+	background:#f99;
+	border-radius: 5px;
+	border: 1px solid #933;
+	text-shadow: 0px 1px 1px rgba(0,0,0,.2);
+}
+
+.eqHeights li {
+	background: #9f9;
+	border: 1px solid #393;
+}

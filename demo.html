@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>imgPlaceholder Demo</title>
+<link rel="stylesheet" type="text/css" media="screen" href="demo.css">
+</head>
+<body>
+
+<div class="content">
+	<h1 class="title">imgPlaceholder Demo</h1>
+
+	<ul class="tabs">
+		<li class="tab_selected">Example</li>
+	</ul>
+
+	<div class="tab_content">
+		<p><pre>$('.imgPlaceholder').imgPlaceholder();</pre></p>
+		<p>Example 1: DIV element, default params (width=150 / height=150 / color=grey)</p>
+		<div class="imgPlaceholder"></div>
+		<p>Example 2: DIV element, custom params passed trough data attributes (width=200 / height=100 / color=red)</p>
+		<div class="imgPlaceholder" data-width="200" data-height="100" data-color="red"></div>
+		<p>Example 3: DIV element, custom params passed trough plugin call (width=30 / height=30 / color=green)</p>
+		<div class="imgPlaceholder2"></div>
+		<p>Example 4: IMG element, default params (width=150 / height=150 / color=grey)</p>
+		<img class="imgPlaceholder">
+		<p>Example 5: IMG element, custom params passed trough data attributes (width=200 / height=100 / color=red)</p>
+		<img class="imgPlaceholder" width="200" height="100" data-color="red">
+		<p>Example 6: IMG element, custom params passed trough plugin call (width=30 / height=30 / color=green)</p>
+		<img class="imgPlaceholder2">
+	</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="imgplaceholder.js"></script>
+<script>
+$(document).ready(function() {
+	$('.imgPlaceholder').imgPlaceholder();
+	$('.imgPlaceholder2').imgPlaceholder({width:30,height:30,color:'green'});
+});
+</script>
+
+</body>
+</html>
+
+
+
